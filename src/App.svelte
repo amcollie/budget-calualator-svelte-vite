@@ -111,7 +111,6 @@
     </Modal>
   {/if}
   <Totals title="total expenses" {total} />
-  <Title title="add expense" />
   <ExpenseList expenses={expenses} {clearExpenses} />
 </main>
 
